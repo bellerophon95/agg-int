@@ -1,0 +1,9 @@
+pymongo~=4.13.2
+pydantic~=2.11.7
+python-dotenv~=1.1.1
+motor~=3.7.1
+fastapi~=0.116.0
+starlette~=0.46.2
+bcrypt~=3.2.0
+uvicorn[standard]
+itsdangerous~=2.1.2
