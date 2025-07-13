@@ -1,4 +1,5 @@
 import moment from "moment";
+import { Note } from "../../types/Note";
 
 const truncateText = (text: string, maxLength: number): string => {
   return text.length > maxLength ? text.slice(0, maxLength) + '...' : text;
