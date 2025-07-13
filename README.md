@@ -18,11 +18,16 @@ https://www.loom.com/share/c9a2211c734d4027a37458ea314c66b7?sid=8d2d9737-d458-4e
 
 ## Usage Instructions
 
-Click on the Render UI and API links, and wait till they are BOTH deployed. Next, use the following sample user to login:
+Click on the Render UI and API links, and wait till they are BOTH deployed. Next, use either of the following sample user to login. The system also supports the creation of new accounts :
 
-- **Email:** johndoe@example.com  
-- **Password:** Password123!
+- **email:** johndoe@example.com  
+  **password:** Password123!
 
+- **email:** alicebrown@example.com  
+  **password:** Tr0ub4d3!K1ng
+
+- **email:** bobjohnson@example.com  
+  **password:** 17dvqwfqw21323
 
 
 ## Local Deployment Instructions
