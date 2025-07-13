@@ -37,7 +37,6 @@ const ViewNoteModal: React.FC<{
 };
 
 
-// Main component
 const HomePage: React.FC = () => {
   const [searchQuery, setSearchQuery] = useState('');
   const [dropdownOpen, setDropdownOpen] = useState(false);
@@ -64,7 +63,6 @@ const HomePage: React.FC = () => {
     fetchNote,
   } = useNotes();
 
-  // Effects
   useEffect(() => {
     fetchNotes();
   }, [fetchNotes]);
@@ -84,7 +82,6 @@ const HomePage: React.FC = () => {
     }
   }, [searchQuery, searchNotes, fetchNotes]);
 
-  // Handlers
   const handleSearch = (e: React.ChangeEvent<HTMLInputElement>) => {
     setSearchQuery(e.target.value);
   };

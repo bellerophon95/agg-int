@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from 'react';
 import { useRouter } from 'next/navigation';
-import { apiClient} from '../client/apiClient'; // Adjust the import path as necessary
+import { apiClient} from '../client/apiClient';
 
 export const useAuth = () => {
     const [userEmail, setUserEmail] = useState('');
