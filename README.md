@@ -18,7 +18,7 @@ https://www.loom.com/share/c9a2211c734d4027a37458ea314c66b7?sid=8d2d9737-d458-4e
 
 ## Usage Instructions
 
-Use the following sample user to login:
+Click on the Render UI and API links, and wait till they are BOTH deployed. Next, use the following sample user to login:
 
 - **Email:** johndoe@example.com  
 - **Password:** Password123!
