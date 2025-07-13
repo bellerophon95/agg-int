@@ -10,7 +10,7 @@ app = FastAPI()
 
 origins = [
     "http://127.0.0.1:3000",
-    "https://agg-int-1.onrender.com/"
+    "https://agg-int-1.onrender.com",
 ]
 
 
