@@ -17,9 +17,9 @@ origins = [
 app.add_middleware(
     SessionMiddleware,
     secret_key=os.getenv("SESSION_SECRET_KEY"),
-    same_site="lax",
-    session_cookie="session",
-# default
+    same_site="none",          # ✅ ALLOWS cross-origin cookies
+    https_only=True,           # ✅ REQUIRED for SameSite=None
+    session_cookie="session"
 )
 
 app.add_middleware(
