@@ -5,7 +5,7 @@ This app is deployed on Render on the free tier, so it might take up to a minute
 ---
 
 ## UI Deploy Link
-[https://agg-int-1.onrender.com/home](https://agg-int-1.onrender.com/home)
+[https://agg-int-1.onrender.com/home](https://agg-int-1.onrender.com)
 
 ## API Deploy Link
 [https://agg-int.onrender.com/](https://agg-int.onrender.com/)
