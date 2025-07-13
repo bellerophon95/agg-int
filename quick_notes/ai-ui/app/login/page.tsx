@@ -1,7 +1,8 @@
 'use client';
-import axios from 'axios';
+
 import { useRouter } from 'next/navigation';
-import React, { useCallback,  useState } from 'react'; // This import is not used in the code, but it can be useful for navigation after login
+import React, { useCallback,  useState } from 'react';
+import { apiClient } from '../home/client/apiClient';// This import is not used in the code, but it can be useful for navigation after login
 
 const LoginPage: React.FC = () => {
     const [email, setEmail] = useState('');
@@ -13,7 +14,7 @@ const LoginPage: React.FC = () => {
         e.preventDefault();
 
         try {
-        await axios.post('http://127.0.0.1:8000/login', { email, password }, { withCredentials: true });
+        await apiClient.post('/login', { email, password }, { withCredentials: true });
         router.push('/home');
         setLoginFailed(false)
         } catch (error) {
